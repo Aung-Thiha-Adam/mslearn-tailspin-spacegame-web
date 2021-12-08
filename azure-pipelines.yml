@@ -21,7 +21,6 @@ steps:
   inputs:
     command: 'install'
     verbose: false
-    versionSpec: '14.x'
 
 - script: './node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot'
   displayName: 'Compile Sass assets'
